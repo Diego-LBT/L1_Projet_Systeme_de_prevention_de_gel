@@ -10,8 +10,8 @@
 #define BUZZER_PIN  5
 
 // ---------- Seuils ----------
-#define SEUIL_ALERTE  31.0
-#define SEUIL_GEL     30.0
+#define SEUIL_ALERTE  3.0
+#define SEUIL_GEL     0.0
 
 // ---------- Capteur ----------
 SHTSensor sht;
