@@ -1,11 +1,3 @@
-/*******************************************************************************
- * Système de Prévention et d'Alerte de Gel pour Agriculteurs
- * Carte : RFThings UCA Education Board v3.8
- * Capteur : SHTC3 (température + humidité)
- * Communication : LoRaWAN ABP via TTN
- * Alertes : LEDs RGB + Buzzer
- *******************************************************************************/
-
 #define CFG_EU 1
 
 #include <lmic.h>
