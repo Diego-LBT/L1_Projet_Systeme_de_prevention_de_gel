@@ -42,3 +42,14 @@ Carte UCA → LoRaWAN 868MHz → Gateway UniCA → TTN → Dashboard
 3. Installer les bibliothèques nécessaires
 4. Configurer les clés TTN (DEVADDR, NWKSKEY, APPSKEY)
 5. Téléverser le code sur la carte UCA
+
+## 🔌 Branchements
+
+La carte UCA Education Board intègre déjà le capteur SHTC3 et les LEDs RGB, donc le seul composant externe à brancher est le **buzzer**.
+
+### Buzzer
+
+| Buzzer | Carte UCA |
+|--------|-----------|
+| **+** (côté croix) | Pin **D5** |
+| **-** (autre patte) | **GND** |
